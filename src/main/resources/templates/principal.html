@@ -11,9 +11,14 @@
 
             .iquitos{
 
-                background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/a6/d7/5c/muyuna-amazon-lodge.jpg?w=700&h=-1&s=1");
-                background-size: cover;
-                background-repeat: no-repeat;
+                    background-image: url("/Muyuna-lodge-Iquitos copia.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 800px;
+                    display: flex;
+                flex-direction: column;
+                    justify-content: center;
+
 
             }
 
@@ -22,14 +27,15 @@
 
 
     </head>
-    <body class="iquitos">
+    <body>
         <nav class="py-2 bg-body-tertiary border-bottom">
             <div class="container d-flex flex-wrap">
                 <ul class="nav me-auto">
                     <form class=" d-flex" role="search">
-                        <input type="search" class="form-control" placeholder="Encuentra tus vuelos preferidos" aria-label="Search">
+                        <input type="search" class="form-control" style="width: 500px;" placeholder="Encuentra tus vuelos preferidos" aria-label="Search">
                     </form>
                 </ul>
+
                 <ul class="nav">
                     <li class="nav-item"><a href="https://getbootstrap.com/docs/5.3/examples/headers/#" class="nav-link link-body-emphasis px-2">Explorar</a></li>
                     <li class="nav-item"><a href="https://getbootstrap.com/docs/5.3/examples/headers/#" class="nav-link link-body-emphasis px-2">Mis Vuelos</a></li>
@@ -37,8 +43,8 @@
                 </ul>
             </div>
         </nav>
-        <header class="py-3 mb-4 border-bottom">
-            <div class="container d-flex flex-wrap justify-content-center">
+        <header class=" bs-body-color-rgb py-3 border-bottom">
+            <div class=" container d-flex flex-wrap justify-content-center">
 
                 <a  href="https://getbootstrap.com/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
                     <span class="nav-item">Vuelos</span>
@@ -60,7 +66,7 @@
                     <span class="nav-item">Upgrade</span>
                 </a>
 
-                <a href="https://getbootstrap.com/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+                <a href="https://getbootstrap.com/" class="d-flex align-items-center  mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
                     <span class="nav-item">Centro de ayuda</span>
                 </a>
 
@@ -68,21 +74,19 @@
         </header>
 
 
-        <div>
-            <h1 style="color: white;" class=" mt-4">Iquitos</h1>
+        <div   class = "iquitos">
 
-            <li style="color: white;" class="mt-4">Descubra las maravillas ocultas y destinos inesperados en Iquitos</li>
+            <div class="ms-4">
+                <h1 style="color: white; ">Iquitos</h1>
 
+                <p style="color: white;" class="mt-4">Descubra las maravillas ocultas y destinos inesperados en Iquitos</p>
+
+            </div>
+            <div class="mt-4 ms-4">
+                <button type="button" class="btn btn-light">Light</button>
+            </div>
 
         </div>
-
-        <div class="mt-4">
-            <button type="button" class="btn btn-light">Light</button>
-
-
-        </div>
-
-
 
     </body>
 </html>
